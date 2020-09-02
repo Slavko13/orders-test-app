@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<products>
+    <product>
+        <description>Металическая тарелка, походная</description>
+        <productName>Тарелка</productName>
+        <serialNumber>1132</serialNumber>
+        <serialProductionDate>2019-05-06</serialProductionDate>
+    </product>
+
+    <product>
+        <description>Металическая кружка, походная</description>
+        <productName>Кружка</productName>
+        <serialNumber>1133</serialNumber>
+        <serialProductionDate>2019-01-22</serialProductionDate>
+    </product>
+
+    <product>
+        <description>Металическая вилка, походная</description>
+        <productName>Вилка</productName>
+        <serialNumber>1134</serialNumber>
+        <serialProductionDate>2019-08-13</serialProductionDate>
+    </product>
+
+    <product>
+        <description>Металическая ложка, походная</description>
+        <productName>Ложка</productName>
+        <serialNumber>1135</serialNumber>
+        <serialProductionDate>2019-12-11</serialProductionDate>
+    </product>
+
+    <product>
+        <description>Палатка 3х местная, походная</description>
+        <productName>Палатка</productName>
+        <serialNumber>1136</serialNumber>
+        <serialProductionDate>2019-10-21</serialProductionDate>
+    </product>
+
+    <product>
+        <description>Палатка 2х местная, походная</description>
+        <productName>Палатка</productName>
+        <serialNumber>1138</serialNumber>
+        <serialProductionDate>2019-10-21</serialProductionDate>
+    </product>
+
+    <product>
+        <description>Палатка 4х местная, походная</description>
+        <productName>Палатка</productName>
+        <serialNumber>1137</serialNumber>
+        <serialProductionDate>2019-10-21</serialProductionDate>
+    </product>
+
+</products>
