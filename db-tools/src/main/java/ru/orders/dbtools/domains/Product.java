@@ -1,6 +1,7 @@
 package ru.orders.dbtools.domains;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonView;
 import lombok.*;
 import org.apache.tomcat.jni.Local;
@@ -37,14 +38,18 @@ public class Product  {
     private Date serialProductionDate;
     @JsonView(UserViews.FullProductInfo.class)
     @OneToMany(mappedBy = "product", fetch = FetchType.EAGER)
+    @JsonIgnore
     private List<OrderDetails> orderDetailsList = new ArrayList<>();
+    @JsonView(UserViews.UpdateProducts.class)
+    private Double pricePerOne;
 
 
-    public Product( String serialNumber, String productName, String description, Date serialProductionDate) {
+    public Product( String serialNumber, String productName, String description, Date serialProductionDate, Double pricePerOne) {
         this.serialNumber = serialNumber;
         this.productName = productName;
         this.description = description;
         this.serialProductionDate = serialProductionDate;
+        this.pricePerOne = pricePerOne;
     }
 
     public Integer getId() {
@@ -76,4 +81,8 @@ public class Product  {
         return orderDetailsList;
     }
 
+    @XmlElement
+    public Double getPricePerOne() {
+        return pricePerOne;
+    }
 }

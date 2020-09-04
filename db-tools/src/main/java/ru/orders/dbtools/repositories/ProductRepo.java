@@ -9,4 +9,5 @@ public interface ProductRepo extends CrudRepository<Product, Integer> {
 
     boolean existsBySerialNumber(String serialNumber);
     List<Product> findAll();
+    Product findBySerialNumber(String serialNumber);
 }

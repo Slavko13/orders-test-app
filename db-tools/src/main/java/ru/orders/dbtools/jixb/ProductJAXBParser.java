@@ -35,7 +35,7 @@ public class ProductJAXBParser {
             productsListToReturn.clear();
             for (Product tempProduct : listProductsJABX.getProductList()) {
                 if (!productRepo.existsBySerialNumber(tempProduct.getSerialNumber())) {
-                    Product product = new Product(tempProduct.getSerialNumber(), tempProduct.getProductName(), tempProduct.getDescription(), tempProduct.getSerialProductionDate());
+                    Product product = new Product(tempProduct.getSerialNumber(), tempProduct.getProductName(), tempProduct.getDescription(), tempProduct.getSerialProductionDate(), tempProduct.getPricePerOne());
                     productsListToReturn.add(product);
                     productRepo.save(product);
                 }

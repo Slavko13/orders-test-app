@@ -3,6 +3,7 @@
     <product>
         <description>Металическая тарелка, походная</description>
         <productName>Тарелка</productName>
+        <pricePerOne>302</pricePerOne>
         <serialNumber>1132</serialNumber>
         <serialProductionDate>2019-05-06</serialProductionDate>
     </product>
@@ -10,12 +11,14 @@
     <product>
         <description>Металическая кружка, походная</description>
         <productName>Кружка</productName>
+        <pricePerOne>191</pricePerOne>
         <serialNumber>1133</serialNumber>
         <serialProductionDate>2019-01-22</serialProductionDate>
     </product>
 
     <product>
         <description>Металическая вилка, походная</description>
+        <pricePerOne>78</pricePerOne>
         <productName>Вилка</productName>
         <serialNumber>1134</serialNumber>
         <serialProductionDate>2019-08-13</serialProductionDate>
@@ -23,6 +26,7 @@
 
     <product>
         <description>Металическая ложка, походная</description>
+        <pricePerOne>91</pricePerOne>
         <productName>Ложка</productName>
         <serialNumber>1135</serialNumber>
         <serialProductionDate>2019-12-11</serialProductionDate>
@@ -31,6 +35,7 @@
     <product>
         <description>Палатка 3х местная, походная</description>
         <productName>Палатка</productName>
+        <pricePerOne>4671</pricePerOne>
         <serialNumber>1136</serialNumber>
         <serialProductionDate>2019-10-21</serialProductionDate>
     </product>
@@ -38,6 +43,7 @@
     <product>
         <description>Палатка 2х местная, походная</description>
         <productName>Палатка</productName>
+        <pricePerOne>3000</pricePerOne>
         <serialNumber>1138</serialNumber>
         <serialProductionDate>2019-10-21</serialProductionDate>
     </product>
@@ -45,7 +51,16 @@
     <product>
         <description>Палатка 4х местная, походная</description>
         <productName>Палатка</productName>
+        <pricePerOne>6999</pricePerOne>
         <serialNumber>1137</serialNumber>
+        <serialProductionDate>2019-10-21</serialProductionDate>
+    </product>
+
+    <product>
+        <description>Палатка 1х местная, походная</description>
+        <productName>Палатка</productName>
+        <pricePerOne>300</pricePerOne>
+        <serialNumber>1139</serialNumber>
         <serialProductionDate>2019-10-21</serialProductionDate>
     </product>
 
