@@ -16,8 +16,8 @@
 
 <h2>Backend test:</h2>
 <ul>
-   <li>Java 13</li>
-   <li>jUnit 5</li>
+   <li>Java 11</li>
+   <li>jUnit 4</li>
    <li>Mockito</li>
 </ul>
 
